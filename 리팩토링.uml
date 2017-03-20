@@ -376,7 +376,7 @@
 <XPD:REF name="Views[1]">gp0ykqc4I0SJ+QBPTO7lpQAA</XPD:REF>
 <XPD:REF name="Views[2]">MbS5trd5eEK090cbrtiuFwAA</XPD:REF>
 <XPD:REF name="Views[3]">6v1Tdaw2Vk2z5CyuJttM4wAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="LIWnLBcya0+uj4UpZammlgAA">
 <XPD:ATTR name="Name" type="string">getMovie</XPD:ATTR>
 <XPD:REF name="Owner">ywaAOjLuNUGHjrqrHqx3VgAA</XPD:REF>
@@ -395,6 +395,16 @@
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">WbPOxOKQIUmEvIzBDXoFLgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[2]" type="UMLOperation" guid="syGSApbudkCwGVNaLWAHEgAA">
+<XPD:ATTR name="Name" type="string">getCharge</XPD:ATTR>
+<XPD:REF name="Owner">ywaAOjLuNUGHjrqrHqx3VgAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="pafj+UBV5kOTaYZ+zwahAgAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">double</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">syGSApbudkCwGVNaLWAHEgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#TypedParameters" type="integer">1</XPD:ATTR>
@@ -507,6 +517,7 @@
 <XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Connections[0]" type="UMLAssociationEnd" guid="q6hmVGf2Q0KPq6Dbkj22agAA">
 <XPD:ATTR name="IsNavigable" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Aggregation" type="UMLAggregationKind">akComposite</XPD:ATTR>
 <XPD:ATTR name="Multiplicity" type="string">0..1</XPD:ATTR>
 <XPD:REF name="Association">Zp8f8E18F0SnbTnEWCnPIwAA</XPD:REF>
 <XPD:REF name="Participant">0RG0hLJjjEWpIIyEjKTmfQAA</XPD:REF>
