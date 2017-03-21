@@ -28,11 +28,7 @@ public class Customer {
 		sb.append(getName() + "고객님의 대여기록\n");
 		
 		for(Rental each : rentals){
-			frequentRenterPoints++;
-			if (each.getMovie().getPriceCode()==Movie.NEW_RELEASE && each.getDaysRented() > 1){
-				frequentRenterPoints++;
-			}
-			
+			frequentRenterPoints += each.getFrequentRenterPoints();
 			sb.append(String.format("\t%s \t %s%n", each.getMovie().getTitle(), each.getCharge()));
 			
 			totalAmount += each.getCharge();
